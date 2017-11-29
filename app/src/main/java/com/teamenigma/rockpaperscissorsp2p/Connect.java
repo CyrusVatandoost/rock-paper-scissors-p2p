@@ -4,7 +4,6 @@ package com.teamenigma.rockpaperscissorsp2p;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.view.View;
-        import android.widget.Button;
 
 public class Connect extends AppCompatActivity {
 
@@ -13,6 +12,7 @@ public class Connect extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connect);
 
+        // play button onclick goes to Game.class
         findViewById(R.id.btnPlay).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
